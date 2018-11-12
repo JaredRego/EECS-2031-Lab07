@@ -1,13 +1,8 @@
 #include <stdlib.h>
-
 #include <string.h>
-
 #include <stdio.h>
-
 #include "doOperator.h"
-
 #include "tokenStack.h"
-
 #include "lexical.h"
 
 struct lexToken *token;
