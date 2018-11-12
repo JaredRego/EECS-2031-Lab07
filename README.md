@@ -1,2 +1,2 @@
 # rpncalc
-eecs2031 lab
+eecs2031 lab07
