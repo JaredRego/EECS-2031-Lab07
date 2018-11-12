@@ -253,12 +253,11 @@ static int op_swap(struct tokenStack *stack)
 
 static int op_rem(struct tokenStack *stack)
 {
-  int v1, v2;
+  int v1;
 
   v1 = popInt(stack);
-  v2 = popInt(stack);
-  pushInt(stack, v1%v2);
-  pushInt(stack, v1/v2);
+  pushInt(stack, v1);
+  pushInt(stack, v1);
   return(0);
 }
 
