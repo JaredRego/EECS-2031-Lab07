@@ -66,8 +66,6 @@ static void pushInt(struct tokenStack *s, int v)
   
   sprintf(token->symbol, "%d", v);
   pushTokenStack(s,token);  
-
-  op_print(s);
 }
 
 int doOperator(struct tokenStack *stack, char *o) 
